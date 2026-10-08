@@ -189,6 +189,7 @@ MySQL の起動が完了する前に実行するとエラーになることが�
 | GET | `/admin/tags/{tag}/edit` | タグの編集ページ | 必要 |
 | PUT | `/admin/tags/{tag}` | タグの更新 | 必要 |
 | DELETE | `/admin/tags/{tag}` | タグの削除 | 必要 |
+| GET | `/contacts/export` | お問い合わせのCSVエクスポート(検索条件を引き継ぐ) | 必要 |
 
 ## API エンドポイント一覧
 
